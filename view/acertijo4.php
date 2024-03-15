@@ -1,7 +1,7 @@
 <?php
    session_start(); 
     if(!isset($_SESSION['OK3'])){
-    header("location: ./acertijo1.php?error=2"); 
+    header("location: ./acertijo3.php?error=2"); 
 }
 ?>
 
@@ -42,5 +42,8 @@
 <?php
     if(isset($_GET['error']) && $_GET['error'] == 1 ){
         echo "es el elemento químico más ligero y abundante en el universo.";
+    }
+    if(isset($_GET['error']) && $_GET['error'] == 2 ){
+        echo "No te intentes colar! Por intentar colarte vuelves a la anterior";
     }
     ?>

@@ -1,7 +1,7 @@
 <?php
    session_start(); 
     if(!isset($_SESSION['OK4'])){
-    header("location: ./acertijo1.php?error=2"); 
+    header("location: ./acertijo4.php?error=2"); 
 }
 ?>
 
@@ -44,5 +44,8 @@
 <?php
     if(isset($_GET['error']) && $_GET['error'] == 1 ){
         echo "¿De que se hinchan los globos?";
+    }
+    if(isset($_GET['error']) && $_GET['error'] == 2 ){
+        echo "No te intentes colar! Por intentar colarte vuelves a la anterior";
     }
 ?>

@@ -16,7 +16,7 @@
     <div class="background-image"></div>
     </div>
     <header class="titulo" style="padding:20px; text-align: center; margin-bottom: 20px; font-weight: bolder; border: 1px solid black; background-color: white;">
-        <h1>¡Has escapdo!</h1>
+        <h1>¡Has escapado!</h1>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </header>
     

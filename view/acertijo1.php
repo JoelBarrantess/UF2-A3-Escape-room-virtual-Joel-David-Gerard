@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../css/style1.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Panel Digital</title>
+  <title>Acertijo1</title>
   
 </head>
 <img src="" alt="">
@@ -30,7 +30,7 @@
         echo "Error, la pista es: Cuantas champions tiene el madrid?";
     }
     if(isset($_GET['error']) && $_GET['error'] == 2 ){
-        echo "No te intentes colar! Por intentar colarte vuelves al inicio";
+        echo "No te intentes colar! Por intentar colarte vuelves a la anterior";
     }
     ?>
 </body>

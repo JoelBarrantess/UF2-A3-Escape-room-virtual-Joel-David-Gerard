@@ -11,7 +11,7 @@
     if(isset($acertijo1) && $acertijo1 == "14" ){
        session_start();
         $_SESSION['OK1'] = $acertijo1;
-        header("location: ../view/acertijo2.php"); 
+        header('location: ../view/acertijo2.php'); 
     } elseif (isset($acertijo1) && $acertijo1 != "14" ){
         header("location: ../view/acertijo1.php?error=1"); 
     }

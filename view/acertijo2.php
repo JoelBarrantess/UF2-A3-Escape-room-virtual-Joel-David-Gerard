@@ -44,5 +44,8 @@
     if(isset($_GET['error']) && $_GET['error'] == 1 ){
         echo "Mal! La pista es que es un utensilio que este hecho de cristal";
     }
+    if(isset($_GET['error']) && $_GET['error'] == 2 ){
+        echo "No te intentes colar! Por intentar colarte vuelves a la anterior";
+    }
     ?>
 </body>

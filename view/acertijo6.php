@@ -1,7 +1,7 @@
 <?php
    session_start(); 
     if(!isset($_SESSION['OK5'])){
-    header("location: ./acertijo2.php?error=2"); 
+    header("location: ./acertijo5.php?error=2"); 
 }
 ?>
 
@@ -41,5 +41,8 @@
 <?php
     if(isset($_GET['error']) && $_GET['error'] == 1 ){
         echo "Desinfecta piscinas";
+    }
+    if(isset($_GET['error']) && $_GET['error'] == 2 ){
+        echo "No te intentes colar! Por intentar colarte vuelves a la anterior";
     }
 ?>

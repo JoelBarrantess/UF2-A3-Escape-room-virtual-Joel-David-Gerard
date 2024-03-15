@@ -1,7 +1,7 @@
 <?php
    session_start(); 
     if(!isset($_SESSION['OK2'])){
-    header("location: ../acertijo1.php?error=2"); 
+    header("location: ../acertijo2.php?error=2"); 
 }
 ?>
 
@@ -48,6 +48,9 @@
     <?php
     if(isset($_GET['error']) && $_GET['error'] == 1 ){
         echo "Mal! La pista tiene que ver con una herramienta que tiene zoom";
+    }
+    if(isset($_GET['error']) && $_GET['error'] == 2 ){
+        echo "No te intentes colar! Por intentar colarte vuelves a la anterior";
     }
     ?>
 </body>
